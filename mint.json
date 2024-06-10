@@ -1,91 +1,64 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "developer-mightycall",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/developer-mightycall_logo_inverted.png",
+    "light": "/logo/developer-mightycall_logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/developer-mightycall_favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4C75E6",
+    "light": "#3664e3",
+    "dark": "#4C75E6",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4C75E6",
+      "to": "#3664e3"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Book demo",
+      "url": "https://www.mightycall.com/booking/"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Try for free",
+    "url": "https://www.mightycall.com/pricing/"
+  },
+  "primaryTab": {
+    "name": "Guides"
   },
   "tabs": [
+    {
+      "name": "Guides",
+      "url": "guides"
+    },
+    {
+      "name": "Recipes",
+      "url": "recipes"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  "anchors": [],
+  "modeToggle": {
+    "default": "light"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "getting-started/getting-started"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "youtube": "https://www.youtube.com/user/mightycall",
+    "facebook": "https://www.facebook.com/MightyCallApp/",
+    "instagram": "https://www.instagram.com/mightycall_voip/",
+    "twitter": "https://twitter.com/mightycall/",
+    "linkedin": "https://www.linkedin.com/company/mightycall/"
   }
 }
